@@ -36,3 +36,13 @@ return ("Hello " + name + " welcome to Page for Devolopers")
 let nameVal = "Admin";
 // calling the function
 console.log(welcomeMsg(nameVal));
+
+
+let myFunction = (a, b) => a * b;
+console.log (myFunction(4, 5)); //arrow example
+
+
+let hello = "";
+hello = (val) => "Hello " + val;
+console.log(hello("Universe!")); //arrow function with a parametre
+
